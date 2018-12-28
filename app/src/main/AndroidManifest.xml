@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Tab041Activity" />
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".Tab02Activity" />
+        <activity android:name=".CkdaActivity"/>
+        <activity android:name=".ResetpwdActivity" />
+
     </application>
 
 </manifest>

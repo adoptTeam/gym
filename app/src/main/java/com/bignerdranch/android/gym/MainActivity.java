@@ -63,15 +63,95 @@ public class MainActivity extends AppCompatActivity {
         mFlzs.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-               Intent i=new Intent(MainActivity.this,DisplayActivity.class);
-              startActivity(i);
+//               Intent i=new Intent(MainActivity.this,DisplayActivity.class);
+//               startActivity(i);
             }
         });
 
-       
+        mLmtc=(ImageButton)findViewById(R.id.lmtc);
+        mLmtc.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent i=new Intent(MainActivity.this,LmtcActivity.class);
+//                startActivity(i);
+            }
+        });
+
+        mYhhd=(ImageButton)findViewById(R.id.yhhd);
+        mYhhd.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent i=new Intent(MainActivity.this,YhhdActivity.class);
+//                startActivity(i);
+            }
+        });
+
+        mYjdc=(ImageButton)findViewById(R.id.yjdc);
+        mYjdc.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent i=new Intent(MainActivity.this,YjdcActivity.class);
+//                startActivity(i);
+            }
+        });
+
+        mTkc=(ImageButton)findViewById(R.id.tkc);
+        mTkc.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent p=new Intent(MainActivity.this,TkcActivity.class);
+//                startActivity(p);
+            }
+        });
+        mNwms=(ImageButton)findViewById(R.id.nwms);
+        mNwms.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent q=new Intent(MainActivity.this,NwmsActivity.class);
+//                startActivity(q);
+            }
+        });
+        mXfzdz=(ImageButton)findViewById(R.id.xfzdz);
+        mXfzdz.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent x=new Intent(MainActivity.this,XfzdzActivity.class);
+//                startActivity(x);
+            }
+        });
+
+        mXiangqing=(ImageButton)findViewById(R.id.xiangqing);
+        mXiangqing.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+             Intent i=new Intent(MainActivity.this,Tab02Activity.class);
+              startActivity(i);
+            }
+        });
+        mDingdan=(ImageButton)findViewById(R.id.dingdan);
+        mDingdan.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+//                Intent i=new Intent(MainActivity.this,Tab03Activity.class);
+//               startActivity(i);
+            }
+        });
+
+        mWode=(ImageButton)findViewById(R.id.wode);
+        mWode.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+               Intent i=new Intent(MainActivity.this,Tab041Activity.class);
+                startActivity(i);
+            }
+        });
+
     }
 
 
 
 
 }
+
+
+
